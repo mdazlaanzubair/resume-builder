@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.section {
+  margin-bottom: 20px;
+}
+.section-title {
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.contacts,
+.soft-skills,
+.technical-skills {
+  list-style-type: none;
+  padding: 0;
+}
+.contacts li,
+.soft-skills li,
+.technical-skills li {
+  margin-bottom: 5px;
+}
+.soft-skills,
+.technical-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+.soft-skills li,
+.technical-skills li {
+  width: 50%;
+}
+.section-content {
+  padding-left: 10px;
+}
+.employment-item,
+.education-item {
+  margin-bottom: 10px;
+}
+.employment-item h3,
+.education-item h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+.employment-item p,
+.education-item p {
+  margin: 5px 0;
+}
