@@ -166,7 +166,7 @@ const resumeDataModal = [
 
 export const resumeData = [
   {
-    sectionId: 1,
+    id: 1,
     title: "Introduction",
     fields: {
       profilePic: "https://i.pravatar.cc/150?img=3",
@@ -200,7 +200,7 @@ export const resumeData = [
     },
   },
   {
-    sectionId: 2,
+    id: 2,
     title: "Experience",
     fields: [
       {
@@ -227,7 +227,7 @@ export const resumeData = [
     ],
   },
   {
-    sectionId: 3,
+    id: 3,
     title: "Education",
     fields: [
       {
@@ -253,7 +253,7 @@ export const resumeData = [
     ],
   },
   //   {
-  //     sectionId: 4,
+  //     id: 4,
   //     title: "Certification",
   //     fields: [
   //       {
@@ -278,7 +278,7 @@ export const resumeData = [
   //     ],
   //   },
   {
-    sectionId: 5,
+    id: 5,
     title: "Skills",
     fields: [
       { name: "HTML/CSS", rating: 5 },
@@ -289,12 +289,12 @@ export const resumeData = [
     ],
   },
   {
-    sectionId: 6,
+    id: 6,
     title: "Interests",
     fields: ["Photography", "Traveling", "Gaming"],
   },
   //   {
-  //     sectionId: 7,
+  //     id: 7,
   //     title: "Awards",
   //     fields: [
   //       {
@@ -322,7 +322,7 @@ export const resumeData = [
   //     ],
   //   },
   //   {
-  //     sectionId: 8,
+  //     id: 8,
   //     title: "Project",
   //     fields: [
   //       {
@@ -347,7 +347,7 @@ export const resumeData = [
   //     ],
   //   },
   //   {
-  //     sectionId: 9,
+  //     id: 9,
   //     title: "Publication",
   //     fields: [
   //       {
@@ -372,7 +372,7 @@ export const resumeData = [
   //     ],
   //   },
   //   {
-  //     sectionId: 10,
+  //     id: 10,
   //     title: "Reference",
   //     fields: [
   //       {

@@ -4,7 +4,7 @@ const DynamicResume = ({ data }) => {
   return (
     <div class="container">
       {data?.map((item, index) => {
-        if (item?.sectionId === 1) {
+        if (item?.id === 1) {
           return (
             <div key={index}>
               <h1>{item?.fields?.fullName}</h1>
@@ -29,7 +29,7 @@ const DynamicResume = ({ data }) => {
           );
         }
 
-        if (item?.sectionId == 2) {
+        if (item?.id == 2) {
           return (
             <div class="section" key={index}>
               <h2 class="section-title">{item?.title}</h2>
@@ -48,7 +48,7 @@ const DynamicResume = ({ data }) => {
           );
         }
 
-        if (item?.sectionId == 3) {
+        if (item?.id == 3) {
           return (
             <div class="section" key={index}>
               <h2 class="section-title">{item?.title}</h2>
@@ -66,7 +66,7 @@ const DynamicResume = ({ data }) => {
           );
         }
 
-        if (item?.sectionId == 5) {
+        if (item?.id == 5) {
           return (
             <div class="section" key={index}>
               <h2 class="section-title">{item?.title}</h2>
@@ -81,7 +81,7 @@ const DynamicResume = ({ data }) => {
           );
         }
 
-        if (item?.sectionId == 6) {
+        if (item?.id == 6) {
           return (
             <div class="section" key={index}>
               <h2 class="section-title">{item?.title}</h2>
